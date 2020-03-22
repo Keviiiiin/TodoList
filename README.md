@@ -1,2 +1,8 @@
-# TodoList
-敏捷作业之MVC
+<div><div class="margin-t-3"><h3><span>作业内容</span></h3><div class="margin-t-2 mark-down-wrap"><div class="markdown-body markdown-init "><h1><!-- react-text: 180 -->Todo list<!-- /react-text --></h1><p><!-- react-text: 182 -->使用node框架，构建一个Restful API，能够完成Todo list的以下功能。<!-- /react-text --></p><ul><li><!-- react-text: 185 -->返回所有Todo任务<!-- /react-text --></li><li><!-- react-text: 187 -->创建一个新的Todo任务<!-- /react-text --></li><li><!-- react-text: 189 -->返回一个指定ID的Todo任务<!-- /react-text --></li><li><!-- react-text: 191 -->删除一个Todo任务<!-- /react-text --></li></ul><p><!-- react-text: 193 -->为简化流程，不引入数据存储，即，不需要做数据持久化，可以在服务器运行时满足功能即可。<!-- /react-text --></p><p><!-- react-text: 195 -->Todo中一个任务的JSON格式定义为：<!-- /react-text --></p><pre><code class="hljs json">  {
+    <span class="hljs-attr">"id"</span>: <span class="hljs-number">1</span>,
+    <span class="hljs-attr">"content"</span>: <span class="hljs-string">"Restful API homework"</span>,
+    <span class="hljs-attr">"createdTime"</span>: <span class="hljs-string">"2019-05-15T00:00:00Z"</span>
+  }</code></pre><p><!-- react-text: 199 -->进一步的功能提示：需完成的四个功能的Restful API定义如下，实现即可。<!-- /react-text --></p><pre><code class="hljs coffeescript">GET <span class="hljs-regexp">/api/tasks/</span>
+POST <span class="hljs-regexp">/api/tasks/</span>
+GET <span class="hljs-regexp">/api/tasks/</span>{id}
+DELETE <span class="hljs-regexp">/api/tasks/</span>{id}</code></pre></div></div><div class="margin-t-2">
